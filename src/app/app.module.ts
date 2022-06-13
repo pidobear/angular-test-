@@ -8,6 +8,9 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { LandingComponent } from './landing/landing.component';
+import { HttpClientModule } from '@angular/common/http';
+import { MaterialModule } from '../material.module';
+import { MatNativeDateModule } from '@angular/material/core';
 
 @NgModule({
   imports: [
@@ -15,6 +18,9 @@ import { LandingComponent } from './landing/landing.component';
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule,
+    MaterialModule,
+    MatNativeDateModule,
     RouterModule.forRoot([{ path: '', component: ProductListComponent }]),
   ],
   declarations: [
@@ -23,7 +29,7 @@ import { LandingComponent } from './landing/landing.component';
     ProductListComponent,
     LandingComponent,
   ],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent, LandingComponent],
 })
 export class AppModule {}
 
