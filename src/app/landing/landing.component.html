@@ -1,6 +1,19 @@
 <H1>Hello</H1>
 <a>
-  <button mat-raised-button color="primary" (click)="testclick()">
+  <button
+    mat-raised-button
+    color="primary"
+    [routerLink]="'/test'"
+    (click)="testclick()"
+  >
+    Primary
+  </button>
+  <button
+    mat-raised-button
+    color="warn"
+    [routerLink]="'/'"
+    (click)="testclick()"
+  >
     Primary
   </button>
 </a>
