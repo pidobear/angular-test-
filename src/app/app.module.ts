@@ -29,7 +29,7 @@ import { MatNativeDateModule } from '@angular/material/core';
     ProductListComponent,
     LandingComponent,
   ],
-  bootstrap: [AppComponent, LandingComponent],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
 
