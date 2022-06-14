@@ -6,10 +6,10 @@ html {
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
 }
 
 body {
+  margin: 0px;
 }
 
 /*
