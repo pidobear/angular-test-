@@ -1,4 +1,42 @@
-
+body {
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ddd;
+}
+.text-typing {
+  padding: 20px 30px;
+  background: #000000;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  border-radius: 50px;
+}
+.text-typing p {
+  margin: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(22, end) forwards, blink 1s infinite;
+}
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  0%,
+  100% {
+    border-right: 2px solid transparent;
+  }
+  50% {
+    border-right: 2px solid rgb(255, 255, 255);
+  }
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
