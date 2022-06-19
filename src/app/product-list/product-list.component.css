@@ -38,6 +38,18 @@
   }
 }
 
+.showArrow {
+  animation: cssAnimation 0s 4s forwards;
+  visibility: hidden;
+  float: right;
+}
+
+@keyframes cssAnimation {
+  to {
+    visibility: visible;
+  }
+}
+
 @font-face {
   font-family: 'Possible';
   src: local('Possible'),

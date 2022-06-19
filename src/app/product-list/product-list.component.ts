@@ -27,7 +27,7 @@ export class ProductListComponent implements OnInit {
     switch (this.day) {
       case 1:
         document.getElementById('textbox')!.textContent =
-          'I like being a dog1!';
+          'I choose you, Pikachu!';
         break;
       case 2:
         document.getElementById('textbox')!.textContent =
@@ -57,6 +57,11 @@ export class ProductListComponent implements OnInit {
     el!.style.animation = 'none';
     el!.offsetHeight; /* trigger reflow */
     el!.style.animation = null!;
+
+    var e2 = document.getElementById('showArrow');
+    e2!.style.animation = 'none';
+    e2!.offsetHeight; /* trigger reflow */
+    e2!.style.animation = null!;
   }
 }
 
