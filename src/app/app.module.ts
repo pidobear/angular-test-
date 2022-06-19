@@ -22,7 +22,7 @@ import { MatNativeDateModule } from '@angular/material/core';
     MaterialModule,
     MatNativeDateModule,
     RouterModule.forRoot([{ path: '', component: ProductListComponent }]),
-    RouterModule.forRoot([{ path: 'test', component: LandingComponent }]),
+    RouterModule.forRoot([{ path: 'MainPage', component: LandingComponent }]),
   ],
   declarations: [
     AppComponent,

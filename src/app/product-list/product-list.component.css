@@ -44,6 +44,12 @@
     url(/../assets/fonts/DefinitelyPossible.ttf) format('truetype');
 }
 
+/* Main Page button */
+.mainPageBtn {
+  display: block;
+  float: right;
+  padding: 10px 10px;
+}
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
