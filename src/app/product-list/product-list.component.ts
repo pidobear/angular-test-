@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import { products } from '../products';
 
@@ -7,19 +7,22 @@ import { products } from '../products';
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.css'],
 })
-export class ProductListComponent {
+export class ProductListComponent implements OnInit {
   products = products;
   day: number = 0;
 
   share() {
     window.alert('The product has been shared!');
   }
+  ngOnInit() {
+    this.nextLine();
+  }
 
   nextLine() {
     this.day++;
     //document.getElementById('textbox')!.textContent = 'I like being a dog!';
     if (this.day == 6) {
-      this.day = 0;
+      this.day = 1;
     }
 
     switch (this.day) {

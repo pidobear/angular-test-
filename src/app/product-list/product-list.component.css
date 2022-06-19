@@ -5,6 +5,8 @@
   color: rgb(255, 255, 255);
   font-family: 'Possible', monospace;
   border-radius: 50px;
+  margin: auto;
+  width: 70%;
 }
 .text-typing p {
   margin: 0px;
