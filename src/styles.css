@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: "Oxygen";
+  src: local("Oxygen"), url(./assets/fonts/Oxygen/Oxygen-Regular.ttf) format("truetype");
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.

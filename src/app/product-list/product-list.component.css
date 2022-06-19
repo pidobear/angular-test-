@@ -5,6 +5,7 @@ body {
   align-items: center;
   justify-content: center;
   background: #ddd;
+  font-family: 'Possible', Arial, Helvetica, sans-serif;
 }
 .text-typing {
   padding: 20px 30px;
@@ -36,6 +37,12 @@ body {
   50% {
     border-right: 2px solid rgb(255, 255, 255);
   }
+}
+
+@font-face {
+  font-family: 'Possible';
+  src: local('Possible'),
+    url(../assets/fonts/DefinitelyPossible.ttf) format('truetype');
 }
 
 /*
