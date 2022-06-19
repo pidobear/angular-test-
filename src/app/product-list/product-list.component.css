@@ -6,8 +6,9 @@
   font-family: 'Possible', monospace;
   border-radius: 50px;
   margin: auto;
-  width: 70%;
 
+  /* Try bottom */
+  /* width: 70%; */
   left: 10%;
   right: 10%;
   bottom: 10%;
