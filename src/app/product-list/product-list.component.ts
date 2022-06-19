@@ -20,7 +20,6 @@ export class ProductListComponent implements OnInit {
 
   nextLine() {
     this.day++;
-    //document.getElementById('textbox')!.textContent = 'I like being a dog!';
     if (this.day == 6) {
       this.day = 1;
     }
