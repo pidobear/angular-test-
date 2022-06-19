@@ -10,7 +10,7 @@ import { products } from '../products';
 export class ProductListComponent {
   products = products;
   day: number = 0;
-  
+
   share() {
     window.alert('The product has been shared!');
   }
