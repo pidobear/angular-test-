@@ -18,7 +18,8 @@
   margin: 0px;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 4s steps(22, end) forwards, blink 1s infinite;
+  animation: typing 4s steps(22, end) forwards;
+  /* , blink 1s infinite; */
 }
 @keyframes typing {
   0% {
@@ -39,9 +40,14 @@
 }
 
 .showArrow {
-  animation: cssAnimation 0s 4s forwards;
+  animation: cssAnimation 0s 4s forwards, blinker 1s linear infinite;
   visibility: hidden;
   float: right;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 
 @keyframes cssAnimation {
