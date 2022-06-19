@@ -1,18 +1,9 @@
-body {
-  margin: 0px;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #ddd;
-  font-family: 'Possible', Arial, Helvetica, sans-serif;
-}
 .text-typing {
   padding: 20px 30px;
   background: #000000;
   font-size: 5vw;
   color: rgb(255, 255, 255);
-  font-family: monospace;
+  font-family: 'Possible', monospace;
   border-radius: 50px;
 }
 .text-typing p {
@@ -42,7 +33,7 @@ body {
 @font-face {
   font-family: 'Possible';
   src: local('Possible'),
-    url(../assets/fonts/DefinitelyPossible.ttf) format('truetype');
+    url(/../assets/fonts/DefinitelyPossible.ttf) format('truetype');
 }
 
 /*
